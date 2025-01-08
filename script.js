@@ -29,3 +29,18 @@ setInterval(changeTitle, 2000);
 
 ///////////////////////////////////////////////////////////////////////////////////////////// changing-style-end///////////////////////////////////////////
 
+
+// phone icon display
+// var phone = document.getElementById("phone");
+// var unphone = document.querySelector(".fa-phone-volume");
+
+//  phone.addEventListener("click", function(){
+//     document.getElementById("displayphone").innerHTML = "09036910498";
+//  });
+function phone(){
+    document.getElementById("displayphone").innerHTML = "09036910498 / 08039645710";
+};
+
+function unphone(){
+    document.getElementById("displayphone").innerHTML = "";
+};
