@@ -15,6 +15,7 @@ body{
     position: fixed;
     top: 0%;
     width: 95%;
+    z-index: 3;
 }
 
 .upper-parth{
@@ -43,6 +44,9 @@ body{
 }
 .offcanvas-body{
     background-color: rgba(4, 4, 10, 0.925);
+    top: 0;
+    left: 0;
+    width: auto;
 }
 .a{
     text-decoration: none;
@@ -53,6 +57,7 @@ body{
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    position: relative;
 }
 .a:hover{
     text-decoration: none;
@@ -65,6 +70,7 @@ body{
 }
 .upper-parth{
    margin-top: 10%;
+   margin-bottom: -7%;
 
 }
 #row-respon{
@@ -76,6 +82,7 @@ body{
 }
 #displayphone{
     cursor: pointer;
+    font-size: 15px;
 }
 .dow-cv{
     margin-top: 20px;
@@ -99,7 +106,7 @@ body{
     box-shadow: 5px rgba(1, 1, 59, 0.411);
     border-radius: 30px;
     font-size: 20px;
-    padding: 5px 8px;
+    padding: 5px 8px;   
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .dow-cv:active{
@@ -181,6 +188,22 @@ body{
     text-align: center;
     text-shadow: 15px 15px 15px black;
 }
+.fas:hover{
+    font-size: 50px;
+    margin-top: 20px;
+    margin: 30px;
+    text-align: center;
+    text-shadow: 15px 15px 15px black;
+    transform: scale(2.05);
+}
+.fab:hover{
+    font-size: 50px;
+    margin-top: 20px;
+    margin: 30px;
+    text-align: center;
+    text-shadow: 15px 15px 15px black;
+    transform: scale(2.05);
+}
 .icon-not{
     border: 2px solid black;
     text-shadow: 15px 15px 15px black;
@@ -188,7 +211,37 @@ body{
 .img > .fas{
     text-shadow: 5px 5px 5px black;
 }
+.progress-bar-animated{
+    background-color:rgb(5, 5, 41) ;
+}
+.progress{
+    margin-bottom: 70px;
+    box-shadow: 15px 15px 15px black;
+}
+.card-group{
+    width: 96%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.center{
+    text-align: center;
+}
+.for-each-card{
+    margin: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px blue;
+}
+.latest-control{
+    background-color:rgb(5, 5, 41) ;
 
+}
+/* .progress:hover{
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 5px blue;
+    transform: scale(2.05);
+    text-align: center;
+} */
 
 /* *********************************************************************************about-page-end**************************************************** */
 
@@ -221,6 +274,16 @@ body{
         text-align: center;
         width: 80%;
     }
+    .responsive-width{
+        width: 200px;
+        display: block;
+    }
+    .fab, .fas{
+        width: 90%;
+    }
+   .chk{
+    color: red;
+   }
 }
 @media (max-width : 1024px) {
     .about-col{
@@ -228,6 +291,16 @@ body{
     }
     #scrollspyHeading2{
         width: 100%;
+        }
+        .responsive-width{
+            width: 200px;
+            display: block;     
+           }
+        .fab, .fas{
+            width: 90%;
+        }
+        .chk{
+            color: blue;
         }
 }
 @media (max-width : 320px) {
@@ -249,5 +322,16 @@ body{
         text-align: center;
         width: 80%;
     }
+    .responsive-width{
+        width: 200px;
+        display: block;
+    }
+    .fab, .fas{
+        width: 90%;
+    }
+    .chk{
+        color: green;
+    }
 }
+
 /******************************************************************* responsiveness-end***************************************************************** */
